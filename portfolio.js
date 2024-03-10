@@ -10,14 +10,13 @@ const signupform = document.getElementById("signupform")
 const buttonsheader = document.getElementById("buttonsheader")
 
 const a1 = annotate  (title, {type: 'highlight', color: 'green'})
-const a2 = annotate  (projects, {type: 'highlight', color: 'lightgreen'})
-const a4 = annotate  (news, {type: 'highlight', color: 'red'})
 const a5 = annotate  (moringa, {type: 'box', color: 'darkblue'})
-const a6 = annotate  (join, {type: 'box', color: 'hotpink'})
+const a2 = annotate  (projects, {type: 'highlight', color: 'lightgreen'})
 const a7 = annotate  (signupform,{type:'highlight', color:'#3c00a0'})
 const a8 = annotate  (buttonsheader,{type:'highlight', color:'red'})
+const a4 = annotate  (news, {type: 'highlight', color: 'red'})
+const a6 = annotate  (join, {type: 'box', color: 'hotpink'})
 
-
-const ag =annotationGroup([a1,a2,a4,a5,a6,a7,a8])
+const ag =annotationGroup([a1,a5,a2,a7,a8,a4,a6])
 
 ag.show()
