@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'VT323';
+    src: url(VT323-Regular.ttf);
+}
+p{
+    font-size: 20px;
+}
+.header{
+    text-align: center;
+}
+.header h3{
+    font-family: VT323;
+    font-size: 40px;
+    
+   
+}
+.header a{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+ .content p{
+    text-align: center;
+    font-family: VT323;
+ }
+
+.buttons{
+    text-align: center;
+}
+
+.linkedin-button{
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+}
+.linkedin-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.github-button{
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+}
+.github-button:hover{
+    background-color: black;
+    color: white;
+} 
+
+.projects{
+    text-align: center;
+    font-family: VT323; 
+}
+.projects h3{
+    font-size: 35px;
+}
+.projects h4{
+    font-size: 25px; 
+}
+#signup{
+    border-radius: 20px;
+}
+
+#project-button{
+    border-radius: 20px;
+}
+
+.newsletter{
+    text-align: center;
+    font-family: VT323;
+}
+.newsletter h3{
+    font-size: 35px;
+}
+
+#name{
+    font-family: VT323;
+    font-size: 20px; 
+    color: white;
+    background-color: black;
+}
+#email{
+    font-family: VT323;
+    font-size: 20px; 
+    color: white;
+    background-color: black;
+}
+.join-button{
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+}
+.join-button:hover{
+    background-color: black;
+    color: white;
+}
+.happy-coding{
+    color: white;
+    text-align: center;
+    font-family: VT323;
+    background-image: url(./img/pexels-pixabay-276452.jpg);
+}
+
+
+.dew{
+    color: rgb(2, 5, 185);
+}
